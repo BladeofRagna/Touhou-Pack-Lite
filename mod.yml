@@ -2,51 +2,51 @@ title: Touhou Pack Lite
 description: Replaces various things with stuff from Touhou Project! (Lite Version of the Main Pack)
 assets:
 #PC ONLY
-- name: remastered/itempic/item-226.imd/-0.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered/itempic/item-226.imd/-0.dds
-- name: remastered/itempic/item-227.imd/-0.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered/itempic/item-227.imd/-0.dds
-- name: remastered/itempic/item-231.imd/-0.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered/itempic/item-231.imd/-0.dds
-- name: remastered/itempic/item-234.imd/-0.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered/itempic/item-234.imd/-0.dds
-- name: remastered/itempic/item-235.imd/-0.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered/itempic/item-235.imd/-0.dds
-- name: remastered/itempic/item-236.imd/-0.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered/itempic/item-236.imd/-0.dds
-- name: remastered/itempic/item-237.imd/-0.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered/itempic/item-237.imd/-0.dds
-- name: remastered/itempic/item-360.imd/-0.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered/itempic/Remilia.dds
-- name: remastered/itempic/item-229.imd/-0.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered/itempic/Koishi.png
+# name: remastered/itempic/item-226.imd/-0.dds
+# platform: pc
+#  method: copy
+#  source:
+#  - name: remastered/itempic/item-226.imd/-0.dds
+#- name: remastered/itempic/item-227.imd/-0.dds
+#  platform: pc
+#  method: copy
+#  source:
+#  - name: remastered/itempic/item-227.imd/-0.dds
+#- name: remastered/itempic/item-231.imd/-0.dds
+#  platform: pc
+#  method: copy
+#  source:
+#  - name: remastered/itempic/item-231.imd/-0.dds
+#- name: remastered/itempic/item-234.imd/-0.dds
+#  platform: pc
+#  method: copy
+#  source:
+#  - name: remastered/itempic/item-234.imd/-0.dds
+#- name: remastered/itempic/item-235.imd/-0.dds
+#  platform: pc
+#  method: copy
+#  source:
+#  - name: remastered/itempic/item-235.imd/-0.dds
+#- name: remastered/itempic/item-236.imd/-0.dds
+#  platform: pc
+#  method: copy
+#  source:
+#  - name: remastered/itempic/item-236.imd/-0.dds
+#- name: remastered/itempic/item-237.imd/-0.dds
+#  platform: pc
+#  method: copy
+#  source:
+#  - name: remastered/itempic/item-237.imd/-0.dds
+#- name: remastered/itempic/item-360.imd/-0.dds
+#  platform: pc
+#  method: copy
+#  source:
+#  - name: remastered/itempic/Remilia.dds
+#- name: remastered/itempic/item-229.imd/-0.dds
+#  platform: pc
+#  method: copy
+#  source:
+#  - name: remastered/itempic/Koishi.png
 #Patching/PS2?
 - name: itempic/item-360.imd
   method: imd
@@ -97,7 +97,7 @@ assets:
     type: list
     method: kh2msg
     source:
-    - name: msg/sys.yml
+    - name: msg/fumo's.yml
       language: en
 - name: 03system.bin
   method: binarc
@@ -148,3 +148,441 @@ assets:
   method: copy
   source:
   - name: Touhou Menu.lua
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Fumos
+
+#Fumo 1
+- name: remastered/itempic/item-226.imd/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Fumo's/Reimu.dds
+#Fumo 2
+- name: remastered/itempic/item-227.imd/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Fumo's/Alice.dds
+#Fumo 3
+- name: remastered/itempic/item-360.imd/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Fumo's/Remilia.dds
+#Fumo 4
+- name: remastered/itempic/item-231.imd/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Fumo's/Sanae.dds
+#Fumo 5
+- name: remastered/itempic/item-234.imd/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Fumo's/Cirno.dds
+#Fumo 6
+- name: remastered/itempic/item-235.imd/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Fumo's/Utsuho.dds
+#Fumo 7
+- name: remastered/itempic/item-236.imd/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Fumo's/Marisa.dds
+#Fumo 8
+- name: remastered/itempic/item-237.imd/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Fumo's/Yuyuko.dds
+#Fumo 9
+- name: remastered/itempic/item-229.imd/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Fumo's/Koishi.dds
